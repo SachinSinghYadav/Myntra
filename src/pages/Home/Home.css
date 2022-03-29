@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+}
+.homepage {
+  position: relative;
+}
+.similarproducts {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 550px;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similarproduct {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: brown;
+  cursor: pointer;
+}

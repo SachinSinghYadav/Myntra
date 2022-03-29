@@ -1,0 +1,17 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+.brands,
+.prices {
+  display: flex;
+  flex-direction: column;
+}
+.filter {
+  margin-top: 10px;
+}
+.category,
+.brand,
+.priceFilter {
+  padding: 5px;
+}

@@ -1,0 +1,75 @@
+.header-navbar {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  height: 80px;
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  background-color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.nav-img {
+  margin-top: 10px;
+  height: 60px;
+}
+.navbar {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  width: 400px;
+  margin-right: 200px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.dropdownItems {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+}
+.dropdown-product-Image {
+  width: 80px;
+  height: 112px;
+}
+
+.dropdown-price {
+  display: flex;
+  margin-left: 10px;
+}
+.dropdown-price-item {
+  margin: 10px;
+}
+.dropdown-mrp {
+  text-decoration: line-through;
+}
+.dropdown-cost {
+  margin-left: 0;
+}
+
+.dropdown-longTitle {
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.dropdownItem {
+  float: right;
+}
+
+.DeleteItem {
+  float: right;
+  cursor: pointer;
+}
+.empty-dropdown {
+  text-align: center;
+}
